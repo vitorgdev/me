@@ -5,7 +5,14 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'gray-green': '#37474F', // Substitua pelo código da cor desejada
+      },
+      fontFamily: {
+        'roboto-mono': ['"Roboto Mono"', 'monospace'],
+      },
+    },
   },
   plugins: [],
 }

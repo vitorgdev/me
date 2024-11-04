@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles.css */
+
+/* Estilo para as letras que caem */
+.falling-letter {
+    display: inline-block;
+    animation: fall 2s forwards;
+    will-change: transform;
+  }
+  
+  /* Animação de queda */
+  @keyframes fall {
+    to {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+  
